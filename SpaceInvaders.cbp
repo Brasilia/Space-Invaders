@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="SpaceInvaders" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/SpaceInvaders" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="0" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/SpaceInvaders" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+		</Compiler>
+		<Unit filename="Resources/Fighter_gray_64.png" />
+		<Unit filename="include/Barrier.h" />
+		<Unit filename="include/BarrierPiece.h" />
+		<Unit filename="include/Bullet.h" />
+		<Unit filename="include/Enemy.h" />
+		<Unit filename="include/Enemy_Troop.h" />
+		<Unit filename="include/Fighter.h" />
+		<Unit filename="include/FileHandler.h" />
+		<Unit filename="include/Flying_Object.h" />
+		<Unit filename="include/Game.h" />
+		<Unit filename="include/Level.h" />
+		<Unit filename="include/LevelHandler.h" />
+		<Unit filename="include/Ranking.h" />
+		<Unit filename="include/Screen.h" />
+		<Unit filename="include/SpaceShip.h" />
+		<Unit filename="include/TextHandler.h" />
+		<Unit filename="include/Timer.h" />
+		<Unit filename="include/Title.h" />
+		<Unit filename="include/Weapon.h" />
+		<Unit filename="include/simpleSDLfunctions.h" />
+		<Unit filename="main.cpp" />
+		<Unit filename="src/Timer.cpp" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+			<lib_finder disable_auto="1" />
+			<DoxyBlocks>
+				<comment_style block="0" line="0" />
+				<doxyfile_project />
+				<doxyfile_build />
+				<doxyfile_warnings />
+				<doxyfile_output />
+				<doxyfile_dot />
+				<general />
+			</DoxyBlocks>
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
